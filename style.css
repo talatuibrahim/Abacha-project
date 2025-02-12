@@ -5,7 +5,7 @@
 }
 .background {
     background-color: #f05334;
-    padding: 50px;
+    padding: 15px 0;
     position: fixed;
     width: 100%;
 }
@@ -28,16 +28,16 @@
     display: inline-block;
 }
 .navbar-link {
+    margin-left: 10px;
     color: white;
     text-decoration: none;
-    margin-left: 10px;
 }
 .container {
     margin: 0 100px;
 }
 .image {
     width: 100%;
-    border-bottom: #cd6a57 solid 15px;
+    border-bottom: #f05334 solid 15px;
 }
 .first-heading {
     margin-left: 30px;
@@ -58,3 +58,38 @@
 .ingredient {
     color: #f05334;
 }
+.prepare-container {
+    background-color: #f05334;
+    padding: 30px 50px;
+    text-align: center;
+    color: white;
+}
+.subscribe-container {
+    padding: 40px;
+    text-align: center;
+    font-size: large;
+    line-height: 40px;
+}
+.subscribe-container input.email {
+    margin: 20px;
+    border: none;
+    border-bottom: #f05334 solid 2px;
+    font-size: x-large;
+}
+.subscribe-container input.btn {
+    border: none;
+    margin-top: 20px;
+    padding: 10px;
+    /*font-size: x-large; */
+    background-color: #f05334;
+    color: white;
+    box-shadow: 1px 1px 2px black;
+}
+.footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-decoration: underline;
+}
+
