@@ -1,52 +1,60 @@
 * {
-    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
 }
 .background {
     background-color: #f05334;
-    padding: 30px;
+    padding: 50px;
+    position: fixed;
+    width: 100%;
+}
+.logo-image {
+    display: inline;
+    text-align: left;
 }
 .logo {
-    width: 2%;
+    width: 3%;
+    float: left;
     position: relative;
-    bottom: 45px;
-    left: 200px;
+    left: 120px;
+    top: 10px;
 }
 .navbar {
+    float:right;
     position: relative;
-    bottom: 70px;
-    left: 900px;
-    color: white;
+    top: 15px;
+    right: 90px;
+    display: inline-block;
+}
 .navbar-link {
     color: white;
     text-decoration: none;
     margin-left: 10px;
 }
+.container {
+    margin: 0 100px;
 }
-.african-salad {
-    position: relative;
-    text-align: center;
-    border-bottom: 10px;
+.image {
     width: 100%;
-    margin-right: 10%;
-    margin-top: 0%;
+    border-bottom: #cd6a57 solid 15px;
 }
 .first-heading {
-    text-align: center justify;
+    margin-left: 30px;
+    line-height: 60px;
+    font-size: x-large;
+    margin: 20px 100px;
 }
-.Description {
+.about-title {
     color: #f05334;
     text-align: center;
 }
 .main-paragragh {
-    line-height: 30PX;
+    text-align: justify;
 }
-.second-heading {
+.except {
+    font-style: italic;
 }
-.list {
+.ingredient {
     color: #f05334;
 }
-.prepare-now [
-    
-]
